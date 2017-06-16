@@ -38,7 +38,7 @@ class Radio(object):
         self.baseURL = "https://c" + self.clientID + ".web.cddbp.net/webapi/json/1.0/radio/"
 
     def create(self, seeds):
-        createURL = self.baseURL + "create?client=" + self.client + "&user=" + self.userID
+        createURL = self.baseURL + "create?client=" + self.client + "&user=" + self.userID + "&return_count=25"
         while len(seeds) > 0:
             seed = seeds.pop()
             if seed[0] == "artist":
@@ -63,6 +63,7 @@ class Radio(object):
                         createURL += "&era=" + era["ID"]
                         break
         playlist = requests.get(createURL)
+        print playlist.text
         return playlist.json()
 
     
@@ -70,7 +71,7 @@ class Radio(object):
     
     
     def event(self, actions, radioID):
-        eventURL = self.baseURL + "event?client=" + self.client + "&user=" + self.userID + "&radio_id=" + radioID
+        eventURL = self.baseURL + "event?client=" + self.client + "&user=" + self.userID + "&radio_id=" + radioID + "&return_count=10"
         while len(actions) > 0:
             action = actions.pop()
             eventType = action[0] + "_" + action[1]
@@ -84,7 +85,7 @@ class Radio(object):
     
     
     def lookahead(self, radioID):
-        lookaheadURL = self.baseURL + "lookahead?client=" + self.client + "&user=" + self.userID + "&radio_id=" + radioID
+        lookaheadURL = self.baseURL + "lookahead?client=" + self.client + "&user=" + self.userID + "&radio_id=" + radioID + "&return_count=10"
         playlist = requests.get(lookaheadURL)
         return playlist.json()
 
