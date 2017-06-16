@@ -29,6 +29,7 @@ yourRadio = Radio(sampleClientID, userID)
 Now, you can create a radio, send feedbacks and receive a playlist containing
 metadata of the music in json
 
+```
 Functions: 
     Radio.create(seeds)
         - seeds is a list(max 5) of tuples(sized 2)
@@ -51,3 +52,4 @@ Functions:
     Radio.listfields(attribute)
         - attribute can be genre, mood or era
         - return a list of string of possible genre, mood or era
+```
