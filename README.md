@@ -27,7 +27,7 @@ yourRadio = Radio(sampleClientID, userID)
 ```
 
 Now, you can create a radio, send feedbacks and receive a playlist containing
-metadata of the music in json
+metadata of the music in JSON
 
 ```
 Functions: 
