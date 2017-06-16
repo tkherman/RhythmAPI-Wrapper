@@ -53,3 +53,247 @@ Functions:
         - attribute can be genre, mood or era
         - return a list of string of possible genre, mood or era
 ```
+
+The following is a sample JSON playlist:
+
+```
+{
+        "RESPONSE":
+        [
+            {
+                "STATUS" : "OK",
+                "RADIO":
+                [
+                    {
+                        "ID" : "55ab765309bef50222c40afa3d990018"
+                    }
+                ],
+                "ALBUM":
+                [
+                    {
+                        "ORD" : "1",
+                        "GN_ID" : "703386050-8A796B4281280F60AF2C2B5EAE4B2292",
+                        "TRACK_COUNT" : "15",
+                        "ARTIST":
+                        [
+                            {
+                                "VALUE" : "The Chainsmokers"
+                            }
+                        ],
+                        "TITLE":
+                        [
+                            {
+                                "VALUE" : "Memories...Do Not Open [Bonus Tracks]"
+                            }
+                        ],
+                        "GENRE":
+                        [
+                            {
+                                "NUM" : "61424",
+                                "ID" : "25364",
+                                "VALUE" : "Electronica Mainstream"
+                            }
+                        ],
+                        "TRACK":
+                        [
+                            {
+                                "TRACK_NUM" : "13",
+                                "GN_ID" : "703386063-364483769E8AD65666CF0B6A1DEF15F5",
+                                "ARTIST":
+                                [
+                                    {
+                                        "VALUE" : "The Chainsmokers Feat. Halsey"
+                                    }
+                                ],
+                                "TITLE":
+                                [
+                                    {
+                                        "VALUE" : "Closer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ORD" : "2",
+                        "GN_ID" : "520246786-0A4E4978F4E3F8FC1FF7FA3E22657A61",
+                        "TRACK_COUNT" : "11",
+                        "ARTIST":
+                        [
+                            {
+                                "VALUE" : "Zedd"
+                            }
+                        ],
+                        "TITLE":
+                        [
+                            {
+                                "VALUE" : "True Colors"
+                            }
+                        ],
+                        "GENRE":
+                        [
+                            {
+                                "NUM" : "177012",
+                                "ID" : "65034",
+                                "VALUE" : "House"
+                            }
+                        ],
+                        "TRACK":
+                        [
+                            {
+                                "TRACK_NUM" : "6",
+                                "GN_ID" : "520246792-1C6261161C550C56BBE5D363FB00F837",
+                                "ARTIST":
+                                [
+                                    {
+                                        "VALUE" : "Zedd"
+                                    }
+                                ],
+                                "TITLE":
+                                [
+                                    {
+                                        "VALUE" : "True Colors"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ORD" : "3",
+                        "GN_ID" : "685646477-374FAF0BFCAE49EE251A551554C611F9",
+                        "TRACK_COUNT" : "1",
+                        "ARTIST":
+                        [
+                            {
+                                "VALUE" : "R3hab Feat. V\u00e9rit\u00e9"
+                            }
+                        ],
+                        "TITLE":
+                        [
+                            {
+                                "VALUE" : "Trouble"
+                            }
+                        ],
+                        "GENRE":
+                        [
+                            {
+                                "NUM" : "177012",
+                                "ID" : "65034",
+                                "VALUE" : "House"
+                            }
+                        ],
+                        "TRACK":
+                        [
+                            {
+                                "TRACK_NUM" : "1",
+                                "GN_ID" : "685646478-930484655FC61D2203570F4F4DB13832",
+                                "ARTIST":
+                                [
+                                    {
+                                        "VALUE" : "R3hab Feat. V\u00e9rit\u00e9"
+                                    }
+                                ],
+                                "TITLE":
+                                [
+                                    {
+                                        "VALUE" : "Trouble"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ORD" : "4",
+                        "GN_ID" : "631337901-47F27B590D1F565C229876113E677049",
+                        "TRACK_COUNT" : "6",
+                        "ARTIST":
+                        [
+                            {
+                                "VALUE" : "Krewella"
+                            }
+                        ],
+                        "TITLE":
+                        [
+                            {
+                                "VALUE" : "Ammunition [EP]"
+                            }
+                        ],
+                        "GENRE":
+                        [
+                            {
+                                "NUM" : "212236",
+                                "ID" : "70814",
+                                "VALUE" : "Dubstep"
+                            }
+                        ],
+                        "TRACK":
+                        [
+                            {
+                                "TRACK_NUM" : "2",
+                                "GN_ID" : "631337903-D69C5A51EA5D7BEC502407C85E91BA8E",
+                                "ARTIST":
+                                [
+                                    {
+                                        "VALUE" : "Krewella"
+                                    }
+                                ],
+                                "TITLE":
+                                [
+                                    {
+                                        "VALUE" : "Broken Record"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "ORD" : "5",
+                        "GN_ID" : "604968730-6943E599E199A485ABD21564A614E858",
+                        "TRACK_COUNT" : "2",
+                        "ARTIST":
+                        [
+                            {
+                                "VALUE" : "Afrojack & Hardwell"
+                            }
+                        ],
+                        "TITLE":
+                        [
+                            {
+                                "VALUE" : "Hollywood [Single]"
+                            }
+                        ],
+                        "GENRE":
+                        [
+                            {
+                                "NUM" : "177012",
+                                "ID" : "65034",
+                                "VALUE" : "House"
+                            }
+                        ],
+                        "TRACK":
+                        [
+                            {
+                                "TRACK_NUM" : "1",
+                                "GN_ID" : "604968731-8EAB99A0377193B8AD33EB56DA8EB920",
+                                "ARTIST":
+                                [
+                                    {
+                                        "VALUE" : "Afrojack & Hardwell"
+                                    }
+                                ],
+                                "TITLE":
+                                [
+                                    {
+                                        "VALUE" : "Hollywood (Extended Mix)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+}
+
+
+```
